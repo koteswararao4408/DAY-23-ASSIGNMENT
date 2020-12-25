@@ -1,4 +1,3 @@
-  GNU nano 4.9.3                                        EmployeeWageComputation.java                                         Modified
 public class EmployeeWageComputation						//Main class
 {
 	//Constants
