@@ -7,9 +7,8 @@ public class EmployeeWageComputation						//Main class
 	public static final int NUM_OF_WORKING_DAYS=20;
 	public static final int MAX_WORKING_HRS=100;
 
-	public static void main(String[] args)					//Main method
+	public static int computeEmpwage()					//Method to calulate Total Employee Wage
 	{
-
 		System.out.println("Welcome to employee wage computation");
 		//Variables		
 		int empHrs=0;
@@ -40,5 +39,10 @@ public class EmployeeWageComputation						//Main class
 		}
 		totalEmpWage=totalEmpHrs*EMP_RATE_PER_HR;                       //Salary of an employee
 		System.out.println("Total Employee Wage: "+totalEmpWage);
+		return totalEmpWage;
+	}
+	public static void main(String[] args)
+	{
+		computeEmpwage();                                               //Calling computeEmpWage method
 	}
 }
